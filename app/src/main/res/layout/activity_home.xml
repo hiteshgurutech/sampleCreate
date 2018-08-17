@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:local="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dating_bg">
+
+
+    <LinearLayout
+        android:id="@+id/linearTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <TextView
+                android:id="@+id/tvUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text="Username"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btn_all"
+                    android:layout_width="110dp"
+                    android:layout_height="@dimen/editbox_height"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#46494e"
+                    android:gravity="center"
+                    android:text="Approachable"
+                    android:textColor="@color/White"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btn_send"
+                    android:layout_width="100dp"
+                    android:layout_height="@dimen/editbox_height"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:text="Cell"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btn_received"
+                    android:layout_width="100dp"
+                    android:layout_height="@dimen/editbox_height"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:text="Email"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/btn_now"
+                    android:layout_width="100dp"
+                    android:layout_height="@dimen/editbox_height"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@color/White"
+                    android:gravity="center"
+                    android:text="Now"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearTop"></FrameLayout>
+
+</RelativeLayout>
+
+

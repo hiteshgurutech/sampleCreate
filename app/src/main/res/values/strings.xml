@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Approachable</string>
+
+    <string name="label_fullname">Full Name</string>
+    <string name="label_email">Enter Email</string>
+    <string name="label_phone">Enter Phone</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_home">Home</string>
+    <string name="label_password">Enter Password</string>
+    <string name="label_forgot_pass">Forgot Password?</string>
+    <string name="label_otp">Verification Code</string>
+    <string name="label_otp_text">Verification code has been sent to </string>
+    <string name="label_resend_otp">Resend Verification Code</string>
+    <string name="label_verify">Verify Now</string>
+    <string name="label_already_account">Already have an account? Login</string>
+    <string name="label_dont_account">Don\'t have an account? Register Now!</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_director">Director : Grand Prize Singles Experience, LLC</string>
+    <string name="label_change_email">Change Email</string>
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "779272721057",
+    "firebase_url": "https://datingapp-183113.firebaseio.com",
+    "project_id": "datingapp-183113",
+    "storage_bucket": "datingapp-183113.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779272721057:android:2b987288765c5666",
+        "android_client_info": {
+          "package_name": "com.gt.datingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779272721057-unjocp8cb8648u1298tpqbbq2uslin1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Q4y0fkzyhFfuXPwTC-kHYm0-IwyOpr0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
